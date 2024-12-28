@@ -13,19 +13,31 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
 }
+
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 100%;
 }
 .menu {
-    width: 15%;
-    background-color: aqua;
+    width: 25%;
+    background-color: #333;
+    color: #fff;
     padding: 10px 20px 0px;
 }
+
+.menu ul a {
+    color: #fff;
+}
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    height: 250px;
+    margin: 0;
+}
+
+.header img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .content {
     background-color: white;
@@ -33,6 +45,52 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+button:hover {
+    opacity: 0.9;
 }

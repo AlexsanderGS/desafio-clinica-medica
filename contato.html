@@ -11,29 +11,52 @@
 <body>
     <div class="wrapper">
         <div class="menu">
-            <!-- Aqui vai o seu menu -->
             <ul>
                 <li><a href="sobre.html">Sobre a clínica</a></li>
+                <br>
                 <li><a href="atendimento.html">Horários de atendimento</a></li>
+                <br>
                 <li><a href="pagina-principal.html">Voltar a página princípal</a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <H1>CONTATO</H1>
-                <!-- Aqui vai o seu header -->
+                <img src="img/contato.png" alt="Uma imagem de um médico no telefone, sinalizando um contato." width="100%" height="100%">
             </div>
     
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <H2>Abaixo nosso contato e endereço completo para localização.</H2>
+                <h3>Telefone para contato e WhatsApp: (99) 9 9999-9999</h3>
+                <h3>Endereço completo: Rua 11, Brigadeira, Canoas. </h3> 
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4892.72422773401!2d-51.168259198863375!3d-29.873544981407075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1735413253741!5m2!1spt-BR!2sbr" 
+                 width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                 <form action="processa_formulario.php" method="post">
+                    <h2>Formulário de Contato</h2>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+            
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+            
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            
+                    <div style="display: flex; justify-content: space-between;">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+               
             </div>
     
             <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
+                <h3>Desenvolvido por Alexsander Galvão</h3>
             </div>
         </div>
     </div>
