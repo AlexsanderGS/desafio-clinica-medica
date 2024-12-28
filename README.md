@@ -62,3 +62,7 @@ No **Menu**, ficará localizado o menu de navegação, no **Header** de cada pá
 
 ## Conclusão
 O HTML é essencial para criar páginas da web e funciona como a base que sustenta todos os outros elementos de design e interatividade. Aprender HTML é o primeiro passo para quem deseja explorar o desenvolvimento web.
+
+## Certificado
+![image](https://github.com/user-attachments/assets/0ff1081d-cd72-42b5-aa87-bf653d4e5de8)
+
